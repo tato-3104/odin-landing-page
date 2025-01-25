@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    font-family: "Roboto";
 }
 
 ul {
@@ -22,7 +23,6 @@ header {
 }
 
 .hero {
-    font-family: "Roboto";
     background-color: #1f2937;
     font-size: 18px;
     color: #e5e7eb
@@ -82,4 +82,13 @@ header {
 .hero-fig img {
     max-width: 600px;
     height: auto;
+}
+
+/* SECTION OF RANDOM INFORMATION */
+
+.info {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    text-align: center;
 }
