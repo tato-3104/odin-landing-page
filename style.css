@@ -91,4 +91,33 @@ header {
     color: #1f2937;
     font-weight: 900;
     text-align: center;
+    padding: 32px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 256px;   
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 100px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card p {
+    margin-top: 15px;
+}
+
+.card a div {
+    border: 4px solid #3882f6;
+    border-radius: 10px;
+    height: 150px;
+    width: 150px;
 }
