@@ -14,7 +14,7 @@ a {
     color: #e5e7eb
 }
 
-/* HERO CONTENTs */
+/* HERO CONTENT */
 
 header {
     display: flex;
@@ -120,4 +120,26 @@ header {
     border-radius: 10px;
     height: 150px;
     width: 150px;
+}
+
+/* QUOTE SECTION */
+
+.quote-section {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    padding: 100px 256px;
+}
+
+.quote-section .quote {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quote-section .cite {
+    align-self: flex-end;
+    font-weight: bold;
+    font-size: 18px;
 }
